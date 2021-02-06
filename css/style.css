@@ -1,0 +1,45 @@
+header {
+    background-color: teal;
+    padding: 35px;
+}
+
+
+header nav {
+    float:right;
+    margin: 7px 0;
+}
+nav {
+    display: block;
+}
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+/* body */
+body{
+    color: darkblue;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start:lem;
+}
+
+/* footer */
