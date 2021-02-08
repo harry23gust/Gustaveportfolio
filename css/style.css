@@ -1,7 +1,34 @@
-header {
-    background-color: teal;
-    padding: 35px;
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+/* body */
+body{
+    color: darkblue;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+}
+
+
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image:;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+  
+  }
 
 
 header nav {
@@ -20,20 +47,48 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
-
-/* body */
-body{
-    color: darkblue;
-    background-color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: block;
+header h1 {
+    display: inline;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
+
+/* hero */
+.hero {
+    background-color: #39a6b2;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    background-position: 80%;
 }
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+    text-shadow: rgba(0,0,0,0.5);
+  }
+
+  .hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #1d13a5;
+  }
+  .work {
+      background-size: 50% 0.em;
+  }
+  
+
+
+
+
+
+
+
 
 
 ul {
@@ -43,3 +98,21 @@ ul {
 }
 
 /* footer */
+
+@media Screen and (max-width: 980px) {
+    header h1 a {
+      color: tomato;
+    }
+  }
+  
+  @media screen  and (max-width: 762px){
+    header h1 {
+      font-size: 80px;
+    }
+  }
+  
+  @media screen and (max-width:575px ){
+    header h1 {
+      font-size: 100px;
+    }
+  }
