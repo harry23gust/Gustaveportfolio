@@ -101,12 +101,27 @@ button: active{
   transform: translate(-70% );
 }
 .mywork {
-  width:80%;
+  width:60%;
   height: 330px;
   background-color: white;
-  border-radius: 20px ;
+  
   box-shadow: 2px 2px 12px rbga(0,0,0,0.2);
   display: flex;
   margin: -7% auto 20px auto;
   position: relative;
+  
 }
+.mywork img{
+  max-width: 50%;
+}
+
+footer p{
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: x-large;
+  justify-content: space-between;
+  text-decoration: tomato;
+  height: 300px;
+}
+
+
