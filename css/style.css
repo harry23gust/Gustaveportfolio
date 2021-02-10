@@ -121,17 +121,18 @@ footer p{
   font-size: x-large;
   text-decoration: tomato;
   height: 300px;
-  
-
-}
-.mywork {
-  font-size: 30px;
-  width: 30%;
-  background-image: url(../Screen\ Shot\ 2021-02-07\ at\ 6.41.12\ PM.png);
-  background-size: cover;
-}
-.mywork p{
-  background-image: url(../digital-marketing-meeting.jpg);
 }
 
+.my-work {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+.work img {
+  width: 60%;
+  border-radius: 30%;
+}
 
